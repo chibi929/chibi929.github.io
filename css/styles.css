@@ -1,0 +1,41 @@
+body {
+  background-color: #eeffee;
+  text-align: center;
+}
+
+.profile p {
+  margin: 0;
+  padding: 0;
+}
+
+.profile img {
+  width: 128px;
+}
+
+.links {
+  margin-top: 16px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a:hover{
+  opacity: 0.8;
+}
+
+.links .twitter {
+  color: #1da1f2;
+}
+
+.links .facebook {
+  color: #4267b2;
+}
+
+.links .github {
+  color: #24292e;
+}
+
+.links .qiita {
+  color: #55c500;
+}

@@ -17,6 +17,24 @@ html, body {
   margin: 0 20% 0 20%;
 }
 
+@media screen and (max-width: 1023px) {
+  #main-container {
+    margin: 0 15% 0 15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #main-container {
+    margin: 0 10% 0 10%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #main-container {
+    margin: 0 5% 0 5%;
+  }
+}
+
 #footer-container {
   text-align: center;
   padding: 10px;

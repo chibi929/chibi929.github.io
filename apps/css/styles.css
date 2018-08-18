@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+}
+
+.header {
+  max-height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#header-container img {
+  margin-top: 5px;
+  width: 200px;
+}
+
+#main-container {
+  margin: 0 20% 0 20%;
+}
+
+#footer-container {
+  text-align: center;
+  padding: 10px;
+}

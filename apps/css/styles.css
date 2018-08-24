@@ -2,36 +2,47 @@ html, body {
   margin: 0;
 }
 
-.header {
+h1 {
+  margin: 0;
+}
+
+header img {
+  margin-top: 5px;
+  width: 200px;
+}
+
+section.main-image {
+  max-height: 420px;
+}
+section.main-image img {
   max-height: 420px;
   width: 100%;
   object-fit: cover;
 }
 
-#header-container img {
-  margin-top: 5px;
-  width: 200px;
+section.privacy {
 }
 
-#main-container {
-  margin: 0 20% 0 20%;
+section .contents-wrapper {
+  margin: 0 20%;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 1023px) {
-  #main-container {
-    margin: 0 15% 0 15%;
+  section .contents-wrapper {
+    margin: 0 15%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #main-container {
-    margin: 0 10% 0 10%;
+  section .contents-wrapper {
+    margin: 0 10%;
   }
 }
 
 @media screen and (max-width: 479px) {
-  #main-container {
-    margin: 0 5% 0 5%;
+  section .contents-wrapper {
+    margin: 0 5%;
   }
 }
 

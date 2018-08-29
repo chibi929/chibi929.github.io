@@ -20,9 +20,6 @@ section.main-image img {
   object-fit: cover;
 }
 
-section.privacy {
-}
-
 section .contents-wrapper {
   margin: 0 20%;
   padding: 20px 0;
@@ -49,5 +46,9 @@ section .contents-wrapper {
 footer {
   color: #efefef;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
+}
+
+footer p {
+  margin: 0;
 }

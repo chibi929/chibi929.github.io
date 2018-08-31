@@ -6,6 +6,20 @@ h1 {
   margin: 0;
 }
 
+a.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  background-image: -webkit-linear-gradient(#6795fd 0%, #67ceff 100%);
+  background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+  border-radius: 20px;
+}
+a.button:active{
+  background-image: -webkit-linear-gradient(#6795fd 0%, #67ceff 70%);
+  background-image: linear-gradient(#6795fd 0%, #67ceff 70%);
+}
+
 header img {
   margin-top: 5px;
   width: 200px;
@@ -26,18 +40,27 @@ section .contents-wrapper {
 }
 
 @media screen and (max-width: 1023px) {
+  p {
+    font-size: 90%;
+  }
   section .contents-wrapper {
     margin: 0 15%;
   }
 }
 
 @media screen and (max-width: 767px) {
+  p {
+    font-size: 80%;
+  }
   section .contents-wrapper {
     margin: 0 10%;
   }
 }
 
 @media screen and (max-width: 479px) {
+  p {
+    font-size: 70%;
+  }
   section .contents-wrapper {
     margin: 0 5%;
   }

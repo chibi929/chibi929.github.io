@@ -40,7 +40,7 @@ section .contents-wrapper {
 }
 
 @media screen and (max-width: 1023px) {
-  p {
+  a, p {
     font-size: 90%;
   }
   section .contents-wrapper {
@@ -49,7 +49,7 @@ section .contents-wrapper {
 }
 
 @media screen and (max-width: 767px) {
-  p {
+  a, p {
     font-size: 80%;
   }
   section .contents-wrapper {
@@ -58,7 +58,7 @@ section .contents-wrapper {
 }
 
 @media screen and (max-width: 479px) {
-  p {
+  a, p {
     font-size: 70%;
   }
   section .contents-wrapper {
@@ -69,7 +69,7 @@ section .contents-wrapper {
 footer {
   color: #efefef;
   text-align: center;
-  padding: 12px;
+  padding: 0.6em;
 }
 
 footer p {

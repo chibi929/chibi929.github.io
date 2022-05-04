@@ -1,11 +1,20 @@
 <template>
-  <Tutorial />
+  <div class="index-page">IndexPage</div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Vue, Component, Prop } from 'vue-property-decorator'
 
-export default Vue.extend({
+@Component({
   name: 'IndexPage',
 })
+export default class IndexPage extends Vue {
+  private created(): void {
+    console.log('created')
+  }
+
+  private mounted(): void {
+    console.log('mounted')
+  }
+}
 </script>

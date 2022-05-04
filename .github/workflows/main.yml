@@ -1,0 +1,29 @@
+name: Build Nuxt.js
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup
+        run: |
+          git config --local user.name ${{ secrets.USER_NAME }}
+          git config --local user.email ${{ secrets.USER_EMAIL }}
+
+      - name: Build
+        run: |
+          yarn
+          yarn generate
+
+      - name: Update Pages
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          rm -rf docs
+          mv dist docs
+          git add docs
+          git commit -m "Update pages."
+          git push origin gh-pages

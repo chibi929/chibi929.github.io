@@ -1,5 +1,7 @@
 <template>
-  <div class="index-page">IndexPage</div>
+  <div class="index-page">
+    <h1>IndexPage</h1>
+  </div>
 </template>
 
 <script lang="ts">
@@ -18,3 +20,11 @@ export default class IndexPage extends Vue {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.index-page {
+  h1 {
+    color: red;
+  }
+}
+</style>

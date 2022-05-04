@@ -24,7 +24,7 @@ export default class IndexPage extends Vue {
 <style lang="scss" scoped>
 .index-page {
   h1 {
-    color: red;
+    color: $color_primary;
   }
 }
 </style>

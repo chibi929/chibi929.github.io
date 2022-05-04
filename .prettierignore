@@ -1,5 +1,6 @@
 ###
 # Place your Prettier ignore content here
+_ress.min.css
 
 ###
 # .gitignore content is duplicated here due to https://github.com/prettier/prettier/issues/8506

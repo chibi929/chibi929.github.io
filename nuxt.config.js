@@ -51,7 +51,11 @@ export default {
 
   // https://github.com/nuxt-community/style-resources-module
   styleResources: {
-    scss: ['@/assets/scss/_variables.scss', '@/assets/scss/_mixin.scss'],
+    scss: [
+      '@/chibi_component/assets/scss/_variables.scss',
+      '@/chibi_component/assets/scss/_mixin.scss',
+      '@/assets/scss/_variables.scss',
+    ],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

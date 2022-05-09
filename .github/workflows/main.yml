@@ -1,13 +1,17 @@
 name: Build Nuxt.js
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.SUBMODULE_TOKEN }}
+          submodules: true
+
       - name: Setup
         run: |
           git config --local user.name ${{ secrets.USER_NAME }}
@@ -25,5 +29,5 @@ jobs:
           rm -rf docs
           mv dist docs
           git add docs
-          git commit -m "Update pages."
+          git commit -m "[Update] Update pages."
           git push origin gh-pages

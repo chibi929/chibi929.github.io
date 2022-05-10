@@ -51,6 +51,7 @@ body,
 
 <style lang="scss" scoped>
 .index-page {
+  font-size: 1.6rem;
   height: 100%;
   background-color: #eeffee;
   text-align: center;

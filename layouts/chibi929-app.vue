@@ -45,10 +45,6 @@ export default class Chibi929AppLayout extends Vue {
 </script>
 
 <style lang="scss">
-html,
-body {
-  font-size: 10px;
-}
 header {
   display: flex;
   align-items: center;

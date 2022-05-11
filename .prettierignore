@@ -2,6 +2,7 @@
 # Place your Prettier ignore content here
 _hue.css
 _ress.min.css
+_gradient.scss
 
 ###
 # .gitignore content is duplicated here due to https://github.com/prettier/prettier/issues/8506

@@ -4,24 +4,26 @@
       <img src="./assets/title.png" alt="TypingQuest" />
     </header>
     <main>
-      <div class="main-image">
-        <img src="./assets/main-image.jpg" alt="TypingQuest" />
-      </div>
-      <section class="section milkyWay">
-        <div class="overview">
-          <div class="left">
-            <h2>「タイピングクエスト」とは、<br />自分たちで描いた敵キャラクターを倒していくタイピングゲームです。</h2>
-            <div style="text-align: left">
-              <p>楽しくタイピングしたくありませんか？</p>
-              <p>自分で描いたキャラクターがタイピングのお題になるのが特徴です。</p>
-              <p>タイピング練習をするなら楽しくタイピングができれば良いなと思い制作しました。</p>
+      <div class="section-wrapper milkyWay">
+        <div class="main-image" style="clip-path: polygon(100% 0%, 100% 80%, 50% 100%, 0 80%, 0 0)">
+          <img src="./assets/main-image.jpg" alt="TypingQuest" />
+        </div>
+        <section class="section">
+          <div class="overview">
+            <div class="left">
+              <h2>「タイピングクエスト」とは、<br />自分たちで描いた敵キャラクターを倒していくタイピングゲームです。</h2>
+              <div style="text-align: left">
+                <p>楽しくタイピングしたくありませんか？</p>
+                <p>自分で描いたキャラクターがタイピングのお題になるのが特徴です。</p>
+                <p>タイピング練習をするなら楽しくタイピングができれば良いなと思い制作しました。</p>
+              </div>
+            </div>
+            <div class="right">
+              <img src="./assets/neko.jpg" alt="" />
             </div>
           </div>
-          <div class="right">
-            <img src="./assets/neko.jpg" alt="" />
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <section class="section milkyWay">
         <h2>例えばこんな感じ！</h2>
         <div class="for-example">

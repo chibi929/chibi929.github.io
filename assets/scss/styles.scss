@@ -1,7 +1,18 @@
 @import '../../chibi_component/assets/scss/_ress.min.css';
-@import './_hue.css';
+@import '../../chibi_component/assets/scss/gradient';
+@import '../../chibi_component/assets/scss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 html,
 body {
   font-size: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
 }

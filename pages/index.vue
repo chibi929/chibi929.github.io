@@ -6,17 +6,20 @@
     </div>
 
     <div class="links">
-      <a href="https://twitter.com/ibihc929">
+      <a href="https://twitter.com/ibihc929" class="link-logo">
         <img src="@/assets/images/twitter_logo.png" alt="Twitter" />
       </a>
-      <a href="https://www.facebook.com/chibi929">
+      <a href="https://www.facebook.com/chibi929" class="link-logo">
         <img src="@/assets/images/facebook_logo.png" alt="Facebook" />
       </a>
-      <a href="https://github.com/chibi929">
+      <a href="https://github.com/chibi929" class="link-logo">
         <img src="@/assets/images/github_logo.png" alt="GitHub" />
       </a>
-      <a href="https://qiita.com/chibi929">
+      <a href="https://qiita.com/chibi929" class="link-logo">
         <img src="@/assets/images/qiita_logo.png" alt="Qiita" />
+      </a>
+      <a href="https://zenn.dev/chibi929" class="link-logo">
+        <img src="@/assets/images/zenn_logo.svg" alt="Zenn" />
       </a>
     </div>
   </div>
@@ -63,8 +66,14 @@ body,
   .links {
     margin-top: 1rem;
 
-    img {
+    a.link-logo {
+      display: inline-block;
       width: 32px;
+      height: 32px;
+      img {
+        width: 32px;
+        height: 32px;
+      }
     }
   }
 }

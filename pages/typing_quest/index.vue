@@ -58,6 +58,9 @@
           </div>
         </div>
       </section>
+      <section class="section milkyWay">
+        <span>デモは<a href="/typing_quest/_/demo" target="_blank">こちら</a></span>
+      </section>
     </main>
   </div>
 </template>
